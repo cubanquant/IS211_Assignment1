@@ -3,6 +3,7 @@ def list_divide(numbers, divide):
     """
     The function returns the number of elements in the numbers list that are divisibleby divide
     """
+class ListExceptionDivide(Exception):
     pass
 
 def test_list_divide():
@@ -15,5 +16,6 @@ def test_list_divide():
     assert listDivide([]) == 0
     assert listDivide([1,2,3,4,5], 1) == 5
     
-if __name__ == "__main__":
+if list_divide == ("test_list_divide"):
+    raise ListExceptionDivide(Exception)
     testListDivide()
